@@ -4,20 +4,24 @@ using namespace std;
 
 int main(){
 
-    int a, b, x;
-    x=0;
+    int n;
+    double a, b, x;
 
-    cin >> a >> b;
+    cin >> n;
 
-    if(a>b) swap(a,b);
+    while(n!=0){
+        
+        cin >> a >> b;
 
-    for(int i=a+1 ; i<b ; i++){
-        if((i%2)){
-            x+=i;
-        }
+        if(b==0){
+            cout << "divisao impossivel" << endl;
+            n--;
+        }else{
+            x = a/b;
+            cout << fixed << setprecision(1) << x << endl;
+            n--;
+        }        
     }
-
-    cout << x << endl;
 
     return 0;
 }
