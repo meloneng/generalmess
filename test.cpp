@@ -4,9 +4,20 @@ using namespace std;
 
 int main(){
 
-    string nome = "This is a String";
+    int a, b, x;
+    x=0;
 
-    cout << nome << endl;
+    cin >> a >> b;
+
+    if(a>b) swap(a,b);
+
+    for(int i=a+1 ; i<b ; i++){
+        if((i%2)){
+            x+=i;
+        }
+    }
+
+    cout << x << endl;
 
     return 0;
 }
