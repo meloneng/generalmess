@@ -4,24 +4,23 @@ using namespace std;
 
 int main(){
 
-    int n;
-    double a, b, x;
+    int a, i=1;
 
-    cin >> n;
+    cin >> a;
 
-    while(n!=0){
-        
-        cin >> a >> b;
+    while(a!=0){
 
-        if(b==0){
-            cout << "divisao impossivel" << endl;
-            n--;
-        }else{
-            x = a/b;
-            cout << fixed << setprecision(1) << x << endl;
-            n--;
-        }        
+        for(int j=0 ; j<4 ; j++){
+            if((i%4) == 0){
+                cout << "PUM" << endl;
+            }else{
+                cout << i << " ";
+            }
+            i++;
+        }
+
+        a--;
     }
-    
+
     return 0;
 }

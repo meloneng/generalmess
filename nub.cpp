@@ -3,18 +3,9 @@ using namespace std;
 
 int main (){
 
-    double inTheBank = 10000;
-    double aporteAnual = 8000;
-    double taxaAnual = 1.1364;
-
-    for (int i=0 ; i < 20 ; i++){
-        inTheBank *= taxaAnual;
-        inTheBank += aporteAnual;
-        cout << fixed << setprecision(2) << "Ano: " << i << "\nValor no banco: " << inTheBank
-            << "\n\n" << endl;
+    for(int i=4 ; i<3 ; i++){
+        cout << "aparece" << endl;
     }
-
-    cout << fixed << setprecision(2) << "Resulado final depois de 20 anos: " << inTheBank << endl;
 
     return 0;
 }
