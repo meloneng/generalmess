@@ -4,22 +4,12 @@ using namespace std;
 
 int main(){
 
-    int a, i=1;
+    int a;
 
     cin >> a;
 
-    while(a!=0){
-
-        for(int j=0 ; j<4 ; j++){
-            if((i%4) == 0){
-                cout << "PUM" << endl;
-            }else{
-                cout << i << " ";
-            }
-            i++;
-        }
-
-        a--;
+    for(int i=1 ; i<=a ; i++){
+        cout << (i) << " " << (i*i) << " " << (i*i*i) << endl;
     }
 
     return 0;
