@@ -8,6 +8,11 @@ int main(){
     string b;
     cin >> a;
     vector<int> v;
+
+    long long cai;
+
+    cai = 100000;
+    cout << cai << endl;
     
 
     for(int i=1 ; i<=a ; i++){
