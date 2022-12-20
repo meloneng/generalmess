@@ -11,9 +11,13 @@ int main(){
 
     long long cai;
 
-    cai = 100000;
-    cout << cai << endl;
-    
+    cout << fixed << setprecision(2) << "" << endl;
+
+    for(int i=0 ; i<3 ; i++){
+        int sac = i;
+
+        cout << sac << endl;
+    }
 
     for(int i=1 ; i<=a ; i++){
         cout << (i) << " " << (i*i) << " " << (i*i*i) << endl;
