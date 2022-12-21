@@ -24,5 +24,11 @@ int main(){
 
     cout << 'A'+1 << "   " << 'Z'+1 << endl;
 
+    b = "manga";
+
+    for(char i: b){
+        cout << i <<endl;
+    }
+
     return 0;
 }
