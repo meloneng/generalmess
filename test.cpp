@@ -6,7 +6,6 @@ int main(){
 
     int a;
     string b;
-    cin >> a;
     vector<int> v;
 
     long long cai;
@@ -22,6 +21,8 @@ int main(){
     for(int i=1 ; i<=a ; i++){
         cout << (i) << " " << (i*i) << " " << (i*i*i) << endl;
     }
+
+    cout << 'A'+1 << "   " << 'Z'+1 << endl;
 
     return 0;
 }
