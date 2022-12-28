@@ -6,11 +6,12 @@ using namespace std;
 int main(){
 
     string s1, s2;
-    int aux1, aux2, n=0;
+    int aux1, aux2;
 
         
-    while(getline(cin,s1)){
-        getline(cin,s2);
+    while(getline(cin,s1) && getline(cin,s2)){
+        
+        int n=0;
 
         for(int i=0 ; i<s1.size() ; i++){
             for(int j=0 ; j<s2.size() ; j++){
