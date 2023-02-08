@@ -17,6 +17,7 @@ func home(w http.ResponseWriter, r *http.Request){
     
     files := []string{
         "./ui/html/bookOnes/base.tmpl.html",
+        "./ui/html/bookOnes/partials/nav.tmpl.html",
         "./ui/html/bookOnes/pages/home.tmpl.html",
     }
 
